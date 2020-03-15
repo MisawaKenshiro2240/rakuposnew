@@ -1,0 +1,526 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color:#B1B2B4;
+}
+body{
+  background-color: #191A1F;
+  height: auto;
+}
+.menu-top{
+  width:90%;
+  margin: 0 auto;
+  background-color:#1C2227;
+  margin-top:30px;
+  height: auto;
+  max-width:308px;
+  border-radius: 8px;
+}
+}.menu-top-img{
+  width:90%;
+  margin: 0 auto;
+}
+
+.other-menu{
+  width:90%;
+  max-width:308px;
+  height: auto;
+  margin:0  auto;
+  margin-top:10px;
+  margin-bottom:80px;
+}
+.el{
+  background-color:#1C2227;
+  width:100%;
+  text-align: center;
+  height:auto;
+  min-height:200px;
+  position:relative;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}.el-carousel{
+  background-color:#1C2227;
+  width:100%;
+  text-align: center;
+  height:150px;
+  position:relative;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.menu-left{
+  float:left;
+  background-color: #191A1F;
+  width:48%;
+  height:auto;
+}
+.menu-right{
+  float:right;
+  width:48%;
+  height:auto;
+  background-color: #191A1F;
+
+}
+.clear{
+  clear:both;
+}
+.modal-drink{
+  display:none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  height: 100vh;
+  background-color: #191A1F;
+}
+.modalClose{
+  position: absolute;
+  top:10;
+  left:100;
+}
+.top-modal-img{
+  width: 55%;
+  margin:0 auto;
+}
+.top-modal-img img{
+  max-width: 100%;
+  min-width:100%;
+  height: auto;
+  width:auto;
+}
+.modal-img{
+  width: 90%;
+  margin:0 auto;
+}
+.modal-img img{
+  max-width: 100%;
+  min-width:100%;
+  height: auto;
+  width:auto;
+}
+
+.modal{
+  display:none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  overflow-y: auto;
+  max-height: 100vh;
+  background-color: #191A1F;
+}
+.modal-header{
+  width:100%;
+  height:70px;
+  font-size:1.7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal .detail{
+  height: auto;
+  position: fixed;
+}
+.mbd-header{
+  height: auto;
+  padding:15px 0px 15px 0px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}.mbd-img{
+  height: 300px;
+  width: 100%;
+  background-image:url("../img/tan.jpg");
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}.mbd-price{
+  width:90%;
+  height: 60px;
+  border-radius: 10px;
+  background-color:#4E5D6A;
+  opacity:0.8;
+  margin-bottom:-280px;
+  margin:0 auto;
+  margin-bottom:5px;
+}.mbd-box{
+  height: 100%;
+  border-radius: 10px;
+  padding-right:40px;
+  padding-top:20px;
+  text-align: right;
+  color:white;
+}.mbd-description{
+  height: auto;
+  padding-bottom:50px
+}
+.mbd-description-box{
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top:30px;
+}.mbd-description h2{
+  margin-bottom:20px;
+  color:white;
+}.mbd-description p{
+  color:gray;
+  opacity: 0.8;
+}
+.mbd-img{
+  height: 300px;
+  width: 100%;
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color:
+}
+.carousel {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+}
+.carousel > div {
+  margin: 0 3px 50px;
+  display: inline-block;
+  width: 30%;
+}.carousel p{
+  color:white;
+}
+
+/*焼肉*/
+.jtanshio{
+  background-image:url("../img/tan.jpg");
+  background-size:cover;
+}.rose{
+  background-image: url("../img/ロース.png");
+  background-size:cover;
+}.karubi{
+  background-image: url("../img/カルビ.png");
+  background-size:cover;
+}.iwanaka{
+  background-image: url("../img/岩中豚のカルビ.png");
+}.iwanaka-ton{
+  background-image: url("../img/岩中豚のトントロ七味焼き.png");
+  background-size:cover;
+}.jomino{
+  background-image: url("");
+  background-size:cover;
+}.tanoshio{
+  background-image: url("");
+  background-size:cover;
+}.hatsu{
+  background-image: url("");
+  background-size:cover;
+}.harami{
+  background-image: url("");
+  background-size:cover;
+}.reba{
+  background-image: url("");
+  background-size:cover;
+}.hachinosu{
+  background-image: url("");
+  background-size:cover;
+}.saikyo{
+  background-image: url("");
+  background-size:cover;
+}
+
+/*野菜 */
+
+.ninniku{
+  background-image: url("");
+  background-size:cover;
+}.kimuchi{
+  background-image: url("");
+  background-size:cover;
+}.namuru{
+  background-image: url("");
+  background-size:cover;
+}.kaiso{
+  background-image: url("");
+  background-size:cover;
+}.sarada{
+  background-image: url("");
+  background-size:cover;
+}.sitake{
+  background-image: url("");
+  background-size:cover;
+}.tamanegi{
+  background-image: url("");
+  background-size:cover;
+}.chanja{
+  background-image: url("");
+  background-size:cover;
+}.nori{
+  background-image: url("");
+  background-size:cover;
+}.sanchu{
+  background-image: url("");
+  background-size:cover;
+}
+
+/*スープ。クッパ */
+
+.wantan{
+  background-image: url("");
+  background-size:cover;
+}.tamago{
+  background-image: url("");
+  background-size:cover;
+}.aosa{
+  background-image: url("");
+  background-size:cover;
+}.bibinba{
+  background-image: url("");
+  background-size:cover;
+}.jansoup{
+  background-image: url("");
+  background-size:cover;
+}.janudon{
+  background-image: url("");
+  background-size:cover;
+}.komutan{
+  background-image: url("");
+  background-size:cover;
+}.kuppa{
+  background-image: url("");
+  background-size:cover;
+}
+
+/* 逸品料理*/
+
+.tonsoku{
+  background-image: url("");
+  background-size:cover;
+}.mushibuta{
+  background-image: url("");
+  background-size:cover;
+}.senmai{
+  background-image: url("");
+  background-size:cover;
+}.chawanmushi{
+  background-image: url("");
+  background-size:cover;
+}.shabazou{
+  background-image: url("");
+  background-size:cover;
+}.sutapon{
+  background-image: url("");
+  background-size:cover;
+}.rostbeef{
+  background-image: url("");
+  background-size:cover;
+}.tamagotoji{
+  background-image: url("");
+  background-size:cover;
+}
+
+/* 御飯・麺類*/
+
+.kare{
+  background-image: url("");
+  background-size:cover;
+}.gyudon{
+  background-image: url("");
+  background-size:cover;
+}.shioudon{
+  background-image: url("");
+  background-size:cover;
+}.gomadare{
+  background-image: url("");
+  background-size:cover;
+}.omurice{
+  background-image: url("");
+  background-size:cover;
+}.butashaba{
+  background-image: url("");
+  background-size:cover;
+}.reimen{
+  background-image: url("");
+  background-size:cover;
+}
+
+/*drink */
+
+.asahi_premium{
+  background-image: url("");
+  background-size:cover;
+}.blueing{
+  background-image: url("");
+  background-size:cover;
+}.bin-beer{
+  background-image: url("");
+  background-size:cover;
+}.non-aru{
+  background-image: url("");
+  background-size:cover;
+}
+.chu-hai{
+  background-image: url("");
+  background-size:cover;
+}.lemon-sour{
+  background-image: url("");
+  background-size:cover;
+}.grapefruit-sour{
+  background-image: url("");
+  background-size:cover;
+}.akaumehai{
+  background-image: url("");
+  background-size:cover;
+}.u-ronhai{
+  background-image: url("");
+  background-size:cover;
+}.machahai{
+  background-image: url("");
+  background-size:cover;
+}.ko-nchahai{
+  background-image: url("");
+  background-size:cover;
+}.kuzuryu{
+  background-image: url("");
+  background-size:cover;
+}.atago{
+  background-image: url("");
+  background-size:cover;
+}.toyobijin{
+  background-image: url("");
+  background-size:cover;
+}
+
+.karuteto{
+  background-image: url("");
+  background-size:cover;
+}
+.sira-zu{
+  background-image: url("");
+  background-size:cover;
+}.yaruden{
+  background-image: url("");
+  background-size:cover;
+}
+.syaburi{
+  background-image: url("");
+  background-size:cover;
+}.so-vinion{
+  background-image: url("");
+  background-size:cover;
+}
+
+.orange{
+  background-image: url("");
+  background-size:cover;  background-image: url("");
+    background-size:cover;
+}.grapefruit{
+  background-image: url("");
+  background-size:cover;
+}.cola{
+  background-image: url("");
+  background-size:cover;
+}.cola-zero{
+  background-image: url("");
+  background-size:cover;
+}.melon{
+  background-image: url("");
+  background-size:cover;
+}.jinja{
+  background-image: url("");
+  background-size:cover;
+}.kurou-ron{
+  background-image: url("");
+  background-size:cover;
+}.ko-ncha{
+  background-image: url("");
+  background-size:cover;
+}
+
+.taketsuru{
+  background-image: url("");
+  background-size:cover;  background-image: url("");
+    background-size:cover;
+}.yoichi{
+  background-image: url("");
+  background-size:cover;
+}
+
+.kakuhigh{
+  background-image: url("");
+  background-size:cover;
+}.taketsuruhigh{
+  background-image: url("");
+  background-size:cover;
+}.yoichihigh{
+  background-image: url("");
+  background-size:cover;
+}
+
+.akakiribottle{
+  background-image: url("");
+  background-size:cover;
+}.senrokubottle{
+  background-image: url("");
+  background-size:cover;
+}.nakanakabottle{
+  background-image: url("");
+  background-size:cover;
+}.yoshirokubottle{
+  background-image: url("");
+  background-size:cover;
+}
+.akakiri{
+  background-image: url("");
+  background-size:cover;
+}.senroku{
+  background-image: url("");
+  background-size:cover;
+}.nakanaka{
+  background-image: url("");
+  background-size:cover;
+}.yoshiroku{
+  background-image: url("");
+  background-size:cover;
+}
+
+.yuzu{
+  background-image: url("");
+  background-size:cover;
+}.ume{
+  background-image: url("");
+  background-size:cover;
+}.uguisu{
+  background-image: url("");
+  background-size:cover;
+}.yoguruto{
+  background-image: url("");
+  background-size:cover;
+}
+
+.kinusara{
+  background-image: url("");
+  background-size:cover;
+}.toramakori{
+  background-image: url("");
+  background-size:cover;
+}
+
+.csoda{
+  background-image: url("");
+  background-size:cover;
+}.cu-ron{
+  background-image: url("");
+  background-size:cover;
+}.corange{
+  background-image: url("");
+  background-size:cover;
+}.cgrapefruit{
+  background-image: url("");
+  background-size:cover;
+}
