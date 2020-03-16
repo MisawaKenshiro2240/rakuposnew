@@ -110,9 +110,11 @@ body{
   left: 0;
   z-index: 10;
   width: 100%;
-  overflow-y: auto;
+  overflow-y: scroll;
   max-height: 100vh;
   background-color: #191A1F;
+  -webkit-overflow-scrolling: touch;
+
 }
 .modal-header{
   width:100%;
